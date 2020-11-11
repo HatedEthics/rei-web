@@ -104,27 +104,5 @@
             </footer>
         </div>
 		
-		<script>
-		const voteLinks = {
-			dbl: {
-				name: "Discord Bot List",
-				url: "https://top.gg/bot/635833307510079490/vote"
-			},
-			boats: {
-				name: "Discord Boats",
-				url: "https://discord.boats/bot/635833307510079490/vote"
-			},
-			bfd: {
-				name: "Bots for Discord",
-				url: "https://botsfordiscord.com/bot/635833307510079490/vote"
-			}
-		};
-		
-		const parameters = new URLSearchParams(window.location.search);
-		const botList = parameters.get("ref");
-		
-		if (voteLinks[botList]) document.querySelector("#support").innerHTML += `<li><a title="Vote" href="${voteLinks[botList].url}" target="_blank">Vote on ${voteLinks[botList].name}</a></li>`;
-		else document.querySelector("#support").innerHTML += Object.keys(voteLinks).map(x => `<li><a title="Vote" href="${voteLinks[x].url}" target="_blank">Vote on ${voteLinks[x].name}</a></li>`).join("");
-		</script>
     </body>
 </html>
