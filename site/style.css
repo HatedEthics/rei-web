@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top left, #000000, #570101);
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 70px;
+    color: #b2b1b2;
+    cursor: pointer;
+}
+.logo img{
+    width: 150px;
+    margin-left: -15px;
+    margin-top: -10px;
+    margin-right: 0px;
+}
+.active{
+    color: #f36060 !important;
+  text-shadow: 0 0 3vw #f40a0a;
+}
+.add-me{
+    margin-top: -4px;
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#420a0a, #570101), 
+    radial-gradient(circle at top right, #d60707, #faa507);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.add-me span{
+    display: block;
+    padding: 8px 22px;
+}
+.join-me{
+    margin-top: 40px;
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#420a0a, #570101), 
+    radial-gradient(circle at top right, #d60707, #faa507);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.join-me span{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #8d8c8d;
+}
+.app-text{
+    margin: 0 auto;
+    max-width: 90%;
+}
+.app-text h1{
+    font-size: 125px;
+    margin-bottom: 20px;
+}
+.app-text h2{
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.app-text h3{
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.app-text p1{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 40px;
+    line-height: 25px;
+    color: #919191
+
+}
+a { color:whitesmoke } /* Globally */
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:rgb(92, 92, 92); }
+a:hover, a:active { text-decoration: none; color:rgb(85, 84, 84) }
+
+
+.glow {
+  color: #d3d3d3;
+  line-height: 9vw;
+  text-shadow: 0 0 0.7vw #2e2c2c;
+}
