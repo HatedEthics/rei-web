@@ -3,6 +3,21 @@
     padding: 0;
     font-family: sans-serif;
 }
+.container{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top left, #000000, #570101);
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 70px;
+    color: #b2b1b2;
+    cursor: pointer;
+}
 .logo img{
     width: 150px;
     margin-left: -15px;
@@ -12,6 +27,42 @@
 .active{
     color: #f36060 !important;
   text-shadow: 0 0 3vw #f40a0a;
+}
+.add-me{
+    margin-top: -4px;
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#420a0a, #570101), 
+    radial-gradient(circle at top right, #d60707, #faa507);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.add-me span{
+    display: block;
+    padding: 8px 22px;
+}
+.join-me{
+    margin-top: 40px;
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#420a0a, #570101), 
+    radial-gradient(circle at top right, #d60707, #faa507);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.join-me span{
+    display: block;
+    padding: 8px 22px;
 }
 .banner{
     width: 80%;
@@ -57,3 +108,25 @@ a:hover, a:active { text-decoration: none; color:rgb(85, 84, 84) }
   line-height: 9vw;
   text-shadow: 0 0 0.7vw #2e2c2c;
 }
+#somethingorother {
+    width: 800px ;
+  }
+  
+  @media screen and (max-width: 320px) {
+    /* comes into effect for screens less than or equal to 320 pixels */
+    #somethingorother {
+      width: 120px ;
+    }
+  }
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    #somethingorother {
+      width: 320px ;
+    }
+  }
+  @media screen and (min-width: 481px) {
+    /* comes into effect for screens larger than or equal to 481 pixels */
+    #somethingorother {
+      width: 480px ;
+    }
+  }
