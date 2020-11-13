@@ -42,7 +42,49 @@ body{
     background-image: linear-gradient(#420a0a, #570101), 
     radial-gradient(circle at top right, #d60707, #faa507);
     background-origin: border-box;
-    background-clip: content-box, border-box;
+    background-clip: content-box, border-box;body{
+    background: radial-gradient(circle at top right, #4e0000, #000000);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    color: rgb(199, 199, 199);
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1.5px #686868;
+}
+.add-me{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(107, 107, 107);
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+a { color:whitesmoke } /* Globally */
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:rgb(92, 92, 92); }
+a:hover, a:active { text-decoration: none; color:rgb(85, 84, 84) }
+
+.logo img{
+    width: 150px;
+    margin-left: -15px;
+    margin-top: -10px;
+    margin-right: 0px;
+}
+#logo {
+    display: block;
+    width: 145px;
+    margin: 50px auto 0;
+}
+.img {
+    border: 3px solid rgb(0, 0, 0); /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    width: 150px; /* Set a small width */
+    box-shadow: 0 0 1px 1px rgba(19, 19, 19);
+}
+
 }
 .add-me span{
     display: block;
